@@ -6,7 +6,6 @@ html{
 
 body{
     background: #eee url(../imagens/bg.jpg) no-repeat;
-    background-size: cover;
 }
 
 .mosquitoPequeno{
@@ -48,5 +47,11 @@ body{
     float: left;
     font-size: 20px;
     font-weight: bold;
+}
+
+@media (min-width: 900px) {
+    body{
+        background-size: cover;
+    }
 }
 
