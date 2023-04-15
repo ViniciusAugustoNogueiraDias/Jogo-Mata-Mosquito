@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+html{
+    cursor: url(../imagens/mata_mosquito.png) 35 35, auto;
+}
+
+body{
+    background: #eee url(../imagens/bg.jpg) no-repeat;
+}
+
+.mosquitoPequeno{
+    width: 50px;
+    height: 50px;
+}
+
+.mosquitoMedio{
+    width: 75px;
+    height: 75px;
+}
+
+.mosquitoGrande{
+    width: 125px;
+    height: 125px;
+}
+
+.ladoDireita{
+    transform: scaleX(-1);
+}
+
+.painel{
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    border-top: 1px solid #fff;
+    background: #fff;
+    opacity: 0.7;
+}
+
+.vidas{
+    float: left;
+
+}
+
+.cronometro{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
